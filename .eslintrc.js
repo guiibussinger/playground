@@ -6,5 +6,8 @@ module.exports = {
   rules: {
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': ['error'],
-  },
+    'comma-dangle': ['error', 'never'],
+    '@typescript-eslint/no-unused-vars': 'off',
+    'jsx-quotes': ['error', 'prefer-single']
+  }
 };
